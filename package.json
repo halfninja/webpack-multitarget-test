@@ -1,0 +1,24 @@
+{
+  "name": "webpack-multitarget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Nick Howes",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
